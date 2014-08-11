@@ -1,4 +1,3 @@
-docker_nodejs_cats
-==================
+### Cats
 
-Sample Node.js app to demonstrate use of Docker containers
+- Sample Node.js app to demonstrate use of Docker containers

@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Listing cats</title>
+    <link rel='stylesheet' href='/stylesheets/bootstrap.min.css' />
+    <link rel='stylesheet' href='/stylesheets/bootstrap-theme.min.css' />
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h3>Listing cats</h3>
+    <ul>
+      <% for(var i=0; i<cats.length; i++) { %>
+      <li><%= cats[i].name %></li>
+      <% } %>
+    </ul>
+  </body>
+</html>
